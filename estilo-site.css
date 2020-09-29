@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+body {
+    background-image: url("fotos/backgroundbila.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 15pt;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 15pt;
+}
+
+/* Formatação do menu*/
+
+header#cabecalho-site h1 {
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 10px 1px black;
+}
+nav#menu {
+    display: block;
+}
+
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: -40px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color:#e3bfbf;
+    padding: 10px;
+    margin: 2px;
+
+}
+nav#menu li:hover{
+    background-color: #d1a1a1;
+}
+
+
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    color:black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: black;
+    font-family: 'Ranchers', cursive;
+}
+header#cabecalho-site {
+    border-bottom: 1px solid white;
+}
+
+
+img.foto-notebook {
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin-right: 60px;
+
+}
+/* Formatação section */
+section#corpo-site{
+    float: left;
+    display: block;
+    width: 650px;
+
+
+
+
+}
+section#corpo-site h1 {
+    font-family: 'Ranchers', cursive;
+    color: black;
+    font-size: 20pt;
+    border: 1px solid white;
+    background-color: white;
+    opacity: 1;
+    margin-top: 30px;
+    position: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 10px;
+
+
+}
+section#corpo-site p{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: -30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 50px
+}
+article#hobbies h1{
+    margin-top: 600px;
+    margin-right: 310px;
+
+
+
+}
+article#hobbies ul{
+    position: absolute;
+    margin-left: 120px;
+    border: 1px solid white;
+    background-color: white;
+    opacity: 0.8;
+}
+ul#tabelahobbies {
+    border-radius: 50px;
+    padding: 25px 25px 25px 25px;
+    position: center;
+    font-family: Arial sans-serif;
+    font-size: 15pt;
+    opacity: 0.8;
+
+
+}
+
+
+/* Formatação aside */
+aside#lateral {
+    width: 600px;
+    display: block;
+    float: right;
+}
+aside#lateral h1 {
+    font-family: 'Ranchers', cursive;
+    color: black;
+    font-size: 17pt;
+    border: 1px solid white;
+    background-color: white;
+    opacity: 1;
+    margin-right: 300px;
+    position: relative;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-top: 480px;
+}
+aside#lateral p {
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    margin-right: 120px;
+    margin-left: -20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+}
+/* Formtação de PC  */
+figure#fotinha img.foto1 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+figure#fotinha img.foto2 {
+    position: absolute;
+    height: 175px;
+    width: 248px;
+    margin-top: 27px;
+    margin-left: 65px;
+    opacity: 1;
+    transition: opacity 2s;
+
+}
+figure#fotinha img.foto2:hover {
+    opacity: 0;
+
+}
+figure#fotinha img.foto3{
+    opacity: 0;
+    position: absolute;
+    height: 175px;
+    width: 248px;
+    float: right;
+    margin-top: 27px;
+    margin-left: 65px;
+    transition: opacity 2s;
+
+
+}
+figure#fotinha img.foto3:hover {
+    opacity: 1;
+
+}
+/* Formatação de Iphone */
+figure#fotinha2 img.foto4 {
+    position: absolute;
+    height: 400px;
+    margin-left: 90px;
+    margin-top: 115px;
+}
+figure#fotinha2 img.foto5 {
+    position: absolute;
+    height: 290px;
+    width: 162px;
+    float: left;
+    margin-left: 210px;
+    margin-top: 170px;
+    opacity: 1;
+    transition: opacity 2s;
+}
+figure#fotinha img.foto5:hover {
+    opacity: 0;
+}
+figure#fotinha2 img.foto6 {
+    position: absolute;
+    height: 290px;
+    width: 162px;
+    float: left;
+    margin-left: 210px;
+    margin-top: 170px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+figure#fotinha2 img.foto6:hover {
+    opacity: 1;
+}
+/* Formatação do video-game */
+figure#fotinha3 img.foto7 {
+    height: 430px;
+    width: 430px;
+    margin-right:120px;
+    margin-top: 100px;
+}
+figure#fotinha3 img.foto8 {
+    height: 146px;
+    width: 230px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -360px;
+    opacity: 1;
+    transition: opacity 2s;
+}
+figure#fotinha3 img.foto8:hover {
+    opacity: 0;
+}
+figure#fotinha3 img.foto9{
+    height: 146px;
+    width: 230px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -360px;
+    opacity: 0;
+    transition:opacity 2s;
+}
+figure#fotinha3 img.foto9:hover{
+    opacity: 1;
+}
+/* Formatação footer */
+footer#rodape {
+    clear: both;
+    border-top:1px solid white ;
+
+}
+footer#rodape img.instagram {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 600px;
+
+
+
+}
+footer#rodape img.facebook {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: -250px;
+
+}
+footer#rodape p{
+    text-align: center;
+    font-family: Arial sans-serif;
+    font-size: 13pt;
+    background: none;
+    border: none;
+}
+
